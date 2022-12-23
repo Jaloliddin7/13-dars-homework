@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F0F5F5;
+}
+.can{
+    width: 100%;
+    max-width: 551px;
+    background: #2DCFC1;
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 63px 88px;
+}
+.hero-img{ 
+    margin: 0 auto;
+    margin-bottom: 24px;
+    width: 310px;
+    height: 260px;
+    margin-top: 40px;
+}
+.hero-title{
+    width: 100%;
+    max-width: 302px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.hero-text{
+    width: 100%;
+    max-width: 309px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.hero-list{
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 41px;
+    cursor: pointer;
+}
+.hero-item{
+    width: 6px;
+    height: 6px;
+    background: rgba(239, 242, 245, 0.7);
+    border-radius: 4px;
+}
+.hero-item2{
+    width: 12px;
+    height: 4px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+/* right style */
+.right{
+    width: 100%;
+    max-width: 632px;
+    display: flex;
+    flex-direction: column;
+    padding: 76px 65px 75px 65px;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    background-color: #FFFFFF;
+}
+.vibtex{
+    width: 85px;
+    height: 24px;
+    margin-bottom: 43px;
+}
+.grup{
+    width: 44.39px;
+    height: 57.26px;
+    position: absolute;
+    left: 566px;
+    right: 20.61px;
+    top: 163.35px;
+    bottom: 492.4px;
+}
+.x{
+    position: absolute;
+    left: 582px;
+    right: 39.37px;
+    top: 33px;
+    bottom: 670.38px;
+    cursor: pointer;
+}
+.right-title{
+    font-weight: 700;
+    font-size: 40px;
+    height: 37px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #344055;
+    margin-bottom: 30px;
+}
+.right-text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #B6B8C3;
+    width: 100%;
+    max-width: 460px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed rgba(44, 62, 80, 0.2);
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+.div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+#tel{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6F7D97;
+    display: block;
+    margin-bottom: 10px;
+}
+#telinput{
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB5BE;
+    padding: 24px 13px;
+    border: 1px solid #CED4DA;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    display: flex;
+    max-width: 377px;
+    margin-bottom: 28px;
+}
+#checkbox-label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #5E6F88;
+    display: inline;
+    height: 34px;
+    width: 100%;
+    max-width: 323px;
+    cursor: pointer;
+}
+#checkbox{
+    width: 20px;
+    height: 20px;
+}
+.chek-link{
+    color: #2DCFC1;
+    text-decoration: none;
+}
+#button{
+    background: #2DCFC1;
+    border: none;
+    border-radius: 8px;
+    padding: 22px 112px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 100%;
+    max-width: 377px;
+    margin-bottom: 19px;
+    cursor: pointer;
+}
+#button:hover{
+    background: #559278;
+}
+.link{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    width: 100%;
+    max-width: 377px;
+    margin-right: 189px;
+    text-align: end;
+}
+
+/* right styleend */
